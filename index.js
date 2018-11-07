@@ -7,7 +7,7 @@ var employeeController = require('./controllers/employeeController.js');
 
 var app = express();
 app.use(bodyParser.json());
-//to avoid cors error committed by firstsanthosh
+//to avoid cors error committed by secondsanthosh
 app.use(cors({ origin: 'http://localhost:4200' }));
 
 app.listen(3000, () => console.log('Server started at port : 3000'));
